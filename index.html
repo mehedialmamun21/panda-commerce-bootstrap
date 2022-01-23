@@ -16,9 +16,10 @@
 <body>
 
     <!-- header start  -->
-    <header>
 
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <header id="home">
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="images/logo.png" alt="">
@@ -31,16 +32,16 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#home">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backpack</a>
+                            <a class="nav-link" href="#backpack">Backpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
                 </div>
@@ -123,8 +124,11 @@
 
     </header>
 
+    <!-- header-end  -->
 
 
+
+    <!-------------------- main start --------------------->
 
     <main>
         <!-- categories -->
@@ -167,7 +171,9 @@
 
         </section>
 
-        <section class="container">
+        <!-- ------------------- shoes ------------------- -->
+
+        <section class="container" id="shoes">
 
             <h2>Shoes</h2>
 
@@ -212,8 +218,10 @@
                 </div>
             </div>
 
+            <!-- ---------------- backpack ------------- -->
+
         </section>
-        <section class="container">
+        <section class="container" id="backpack">
             <h2>Backpack</h2>
             <div class="row mb-5">
                 <div class="card shadow col-12 col-md-6 col-lg-4">
@@ -258,7 +266,10 @@
             </div>
         </section>
 
-        <section class="container d-flex justify-content-center my-5 py-5" style="background-color: #FCEAE8;">
+        <!-- subscribe  -->
+
+        <section class="container d-flex justify-content-center my-5 py-5" id="subscribe"
+            style="background-color: #FCEAE8;">
             <div>
                 <h1>LET'S STAY IN TOUCH</h1>
                 <p>Get updates on sales, specials and more</p>
@@ -272,12 +283,15 @@
 
     </main>
 
+    <!-- --------------------- main-end --------------------- -->
 
 
 
+    <!-- footer-start -->
     <footer class="d-flex justify-content-center">
         <p>©2020. Panda Commerce. All rights reserved. Sofia, Bulgaria.</p>
     </footer>
+    <!-- footer-end  -->
 
 
 
